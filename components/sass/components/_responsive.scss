@@ -8,6 +8,24 @@
             width: 100%;
         }
     }
+    .important-blog {
+        ol{
+            padding: 0 20px 0 0px;
+            li img {
+                width: 60px;
+                height: 48px;
+                padding: 0 0px 0 8px;
+                border-radius: 12px;
+              }
+        }
+ 
+    }  
+}
+@media screen and (max-width: 321px) {
+    .important-blog {
+        .float-left.p-0 {
+            width: 70%;
+        }
+    }
 
-    
 }
