@@ -1,0 +1,36 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(assets/sprite/sprite.svg);
+  }
+  .icon-dglasses {
+    width: 45px;
+    height: 32px;
+    background-position: 0 0;
+    transform: scale(.55);
+    position: relative;
+    top: 10px;
+  }
+  .icon-bookmark-o {
+    width: 20px;
+    height: 28px;
+    background-position: 0 -48px;
+  }
+  .icon-calendar {
+    width: 20px;
+    height: 20px;
+    background-position: 0 -92px;
+    transform: scale(.8);
+    position: relative;
+    top: 5px;
+  }
+  .icon-pencil {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -128px;
+    position: relative;
+    top: 10px;
+    transform: scale(0.45);
+  }
+  
+  

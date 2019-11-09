@@ -1,0 +1,62 @@
+
+// _base.scss
+// ==============
+
+/***********************************
+** reset Dom, set defualt font 
+************************************/
+html body{
+  color: $darkGray;
+  font-family: $mainfont;
+  direction: rtl;
+  text-align: right;
+  font-size: 12px;
+}
+::selection { /* Code for Firefox */
+  color: #fff;
+  background: $orangeColor;
+}
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: $orangeColor;
+}
+a{
+  color: $darkGray;
+  transition: all 0.3s ease;
+}
+.font-bold{
+  font-weight: bold;
+}
+a:hover{
+  color: $orangeColor;
+  text-decoration: none;
+}
+p{
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.light-grey {
+  opacity: 0.4;
+}
+.dark-grey{
+  opacity: 0.6;
+}
+.h1, h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: $darkGray;
+
+}
+.h3, h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.border-grey-top{
+  border-top: 1px solid #eee;
+}

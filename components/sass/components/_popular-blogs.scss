@@ -1,0 +1,36 @@
+.popular-blog {
+    background: #fff;
+    box-shadow: 1px 5px 5px #eee;
+    border: 1px solid #f7f5f5;
+    margin-bottom: 15px;
+    cursor: pointer;
+    &:hover{
+        h3{
+            color: $orangeColor;
+        }
+    }
+    h3{
+        transition: all 0.5s ease-in-out;
+    }
+    .icon-bookmark {
+        position: absolute;
+        left: 17px;
+        top: 12px;
+        transform: scale(.7);
+        cursor: pointer;
+        path {
+            fill: #888686;
+            transition: all 0.4s ease-in-out;
+        }
+        &:hover{
+            path{
+                fill: #888686;
+                stroke: #eee;
+            }
+        }
+        &.selected path {
+            fill: #000;
+            stroke: #000;
+        }
+    }
+}
